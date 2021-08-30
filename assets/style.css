@@ -1,0 +1,102 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+    font-size: 16px;
+    line-height: 1;
+    background-color:lightgreen ;
+  }
+  
+  .container {
+    margin-bottom: 30px;
+  }
+  
+  textarea {
+    background: transparent;
+    border: none;
+    resize: none;
+    color: black;
+    border-left: 1px solid black;
+    padding: 10px;
+  }
+  
+  .form-control {
+    border: none;
+    color: #ffffff;
+    background-color: rgba(255, 255, 255, 0);
+  }
+  
+  .form-control:focus {
+    color: #ffffff;
+    background-color: #ffffff48;
+    border-color: #ffffff48;
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgb(255 255 255 / 25%);
+  }
+  
+  .jumbotron {
+    text-align: center;
+    background-color: transparent;
+    color: var(--light);
+    border-radius: 0;
+    border-bottom: 10px solid var(--light);
+  }
+  
+  .description {
+    white-space: pre-wrap;
+  }
+  
+  .table {
+    color: var(--light);
+  }
+  
+  .table-bordered {
+    border: 1px solid var(--gray);
+  }
+  
+  .table-bordered td, .table-bordered th {
+    border: 1px solid var(--gray);
+  }
+  
+  .time-block {
+    text-align: center;
+    border-radius: 15px;
+  }
+  
+  .row {
+    white-space: pre-wrap;
+    height: 80px;
+    border-top: 1px solid white;;
+  }
+  
+  .hour {
+    background-color: #ffffff;
+    color: #000000;
+    border-top: 1px dashed #000000;
+  }
+  
+  .past {
+    background-color: rgb(47, 145, 202);
+    color:lightblue;
+  }
+  
+  .present {
+    background-color: rgb(240, 130, 194);
+    color: white;
+  }
+  
+  .future {
+    background-color: rgb(200, 230, 95);
+    color: white;
+  }
+  
+  .saveBtn {
+    border-radius: 10vh;
+    padding: 2vh;
+    background-color: #06AED5;
+    color: white;
+  }
+  
+  .saveBtn i:hover {
+    font-size: 20px;
+    transition: all .3s ease-in-out;
+  }
+  
