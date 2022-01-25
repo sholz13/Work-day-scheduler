@@ -2,15 +2,14 @@ let plannerEl = $(".container");
 let currentDateEl = $("#currentDay");
 let timeBlockBodyEl = $(".time-block");
 let clearEventsButtonEl = $(".clear-events").on("click", clearAllEvents);
-// Declare event field related variables
+
 let eventFieldsEl;
 let eventFieldsArray;
-// Declare variable for the current hour as a number
+
 let currentHour = moment().hours();
 // Declare variable for the current date and time
 let currentDate = moment().format("dddd, MMMM Do YYYY, h:mm:ss a");
 
-// Date and time display functionality
 currentDateEl.text(currentDate);
 setInterval(() => {
     currentDateEl.text(moment().format("dddd, MMMM Do YYYY, h:mm:ss a"));
